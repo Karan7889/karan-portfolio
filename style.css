@@ -264,10 +264,12 @@ section{
     text-align: justify;
     border: yellow;
 }
-.skills .skills-content .left a {
+.skills .skills-content .left #linkedin {
     display: inline-block;
-    background: #4b00ff;
-    color: black;
+    /* background: #4b00ff; */
+    /* background :#61ac41  ; */
+    background :#00a0dc  ;
+    color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
@@ -276,12 +278,36 @@ section{
     border: 2px solid black;
     transition: all .3s ease;
 }
-.skills .skills-content .left a #linkedin{
-background :#00a0dc  ;}
-.skills .skills-content .left a #linkedin{
-background :#333  ;}
-.skills .skills-content .left a #linkedin{
-background :#6cc644  ;}
+.skills .skills-content .left #github {
+    display: inline-block;
+    /* background: #4b00ff; */
+    /* background :#61ac41  ; */
+    background :rgb(78, 68, 68) ;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid black;
+    transition: all .3s ease;
+}
+.skills .skills-content .left #hackerrank {
+    display: inline-block;
+    /* background: #4b00ff; */
+    /* background :#61ac41  ; */
+   
+    background :#61ac41 ;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid black;
+    transition: all .3s ease;
+}
+
 
 .skills .skills-content .right .info {
     display: -webkit-flex;
