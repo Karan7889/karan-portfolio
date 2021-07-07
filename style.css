@@ -276,6 +276,12 @@ section{
     border: 2px solid black;
     transition: all .3s ease;
 }
+.skills .skills-content .left a #linkedin{
+background :#00a0dc  ;}
+.skills .skills-content .left a #linkedin{
+background :#333  ;}
+.skills .skills-content .left a #linkedin{
+background :#6cc644  ;}
 
 .skills .skills-content .right .info {
     display: -webkit-flex;
